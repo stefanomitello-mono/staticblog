@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-h1 md:text-md-h1 text-white;
+    }
+    h2 {
+        @apply text-h2 md:text-md-h2 text-white;
+    }
+}

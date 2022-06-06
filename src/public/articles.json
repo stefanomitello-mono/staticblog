@@ -1,0 +1,32 @@
+{
+    "articles": [
+        {
+            "title": "Article 01",
+            "uri": "/article01",
+            "publishedOn": "2012-04-23",
+            "category": "javascript",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia est urna, eu sodales dolor porttitor nec. Donec ultrices dignissim odio, ac auctor nibh pretium non. Fusce et tortor blandit, scelerisque felis egestas, dictum eros. Nam a enim vel augue bibendum suscipit. Etiam vel orci turpis. Proin molestie odio erat. Donec sed consectetur nunc. In feugiat fermentum purus sed aliquet. Duis sed augue sit amet nunc viverra ultricies. Nam id nulla sed magna laoreet rhoncus non eu mi. Donec ornare nibh ac consectetur efficitur. Sed et tortor at neque imperdiet facilisis. Donec eleifend diam vitae diam sollicitudin aliquam."
+        },
+        {
+            "title": "Article 02",
+            "uri": "/article02",
+            "publishedOn": "2022-04-23",
+            "category": "react",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia est urna, eu sodales dolor porttitor nec. Donec ultrices dignissim odio, ac auctor nibh pretium non. Fusce et tortor blandit, scelerisque felis egestas, dictum eros. Nam a enim vel augue bibendum suscipit. Etiam vel orci turpis. Proin molestie odio erat. Donec sed consectetur nunc. In feugiat fermentum purus sed aliquet. Duis sed augue sit amet nunc viverra ultricies. Nam id nulla sed magna laoreet rhoncus non eu mi. Donec ornare nibh ac consectetur efficitur. Sed et tortor at neque imperdiet facilisis. Donec eleifend diam vitae diam sollicitudin aliquam."
+        },
+        {
+            "title": "Article 03",
+            "uri": "/article03",
+            "publishedOn": "2020-05-23",
+            "category": "gatsby",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia est urna, eu sodales dolor porttitor nec. Donec ultrices dignissim odio, ac auctor nibh pretium non. Fusce et tortor blandit, scelerisque felis egestas, dictum eros. Nam a enim vel augue bibendum suscipit. Etiam vel orci turpis. Proin molestie odio erat. Donec sed consectetur nunc. In feugiat fermentum purus sed aliquet. Duis sed augue sit amet nunc viverra ultricies. Nam id nulla sed magna laoreet rhoncus non eu mi. Donec ornare nibh ac consectetur efficitur. Sed et tortor at neque imperdiet facilisis. Donec eleifend diam vitae diam sollicitudin aliquam."
+        },
+        {
+            "title": "Article 04",
+            "uri": "/article04",
+            "publishedOn": "2013-08-06",
+            "category": "javascript",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia est urna, eu sodales dolor porttitor nec. Donec ultrices dignissim odio, ac auctor nibh pretium non. Fusce et tortor blandit, scelerisque felis egestas, dictum eros. Nam a enim vel augue bibendum suscipit. Etiam vel orci turpis. Proin molestie odio erat. Donec sed consectetur nunc. In feugiat fermentum purus sed aliquet. Duis sed augue sit amet nunc viverra ultricies. Nam id nulla sed magna laoreet rhoncus non eu mi. Donec ornare nibh ac consectetur efficitur. Sed et tortor at neque imperdiet facilisis. Donec eleifend diam vitae diam sollicitudin aliquam."
+        }
+    ]
+}

@@ -4,9 +4,12 @@
 
 @layer base {
     h1 {
-        @apply text-h1 md:text-md-h1 text-white;
+        @apply text-h1 md:text-md-h1 text-white font-sans;
     }
     h2 {
-        @apply text-h2 md:text-md-h2 text-white;
+        @apply text-h2 md:text-md-h2 text-white font-sans;
+    }
+    h3 {
+        @apply text-h2 md:text-md-h2 text-text-10 font-sans font-bold;
     }
 }

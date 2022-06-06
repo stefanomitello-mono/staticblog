@@ -59,7 +59,6 @@ function Navbar() {
 
                             {data?.navbar.map(item => (
                                 <li key={item.name} className="nav-item mx-4">
-
                                     <Button title={item.name} uri={item.uri} isButton={item.isButton} />
                                 </li>
                             ))}

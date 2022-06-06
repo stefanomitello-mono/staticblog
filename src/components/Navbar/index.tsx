@@ -56,10 +56,9 @@ function Navbar() {
                         id="example-navbar-danger"
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-
                             {data?.navbar.map(item => (
                                 <li key={item.name} className="nav-item mx-4">
-                                    <Button title={item.name} uri={item.uri} isButton={item.isButton} />
+                                    <Button title={item.name} uri={item.uri} isButton={item.isButton} textColor={'white'} />
                                 </li>
                             ))}
 

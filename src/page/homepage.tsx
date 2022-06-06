@@ -57,10 +57,30 @@ function Home() {
                         <h3 className='text-white'>Project</h3>
                     </div>
 
-                    <Project title={'title'} uri={'#url'} text={'Hello dude!'} />
+                    <div className="grid overflow-hidden grid-cols-2 grid-rows-2 gap-3 grid-flow-row w-auto">
+                        <div className="col-span-2 self-end">
+                            <Project title={'title'} uri={'#url'} text={'Hello dude!'} />
+                        </div>
+                        <div className="box">
+                            <Project title={'title'} uri={'#url'} text={'Hello dude!'} />
+                        </div>
+                        <div className="box">
+                            <Project title={'title'} uri={'#url'} text={'Hello dude!'} />
+                        </div>
+                    </div>
 
                 </section>
+
+
             </div >
+
+            <section className='text-center bg-blue-20 pt-28 pb-20 px-8'>
+                <h2 className='font-bold text-h1 md:text-md-h1 text-glow-10'>What ur lookin' for?</h2>
+                <p className='text-white'>Let's have a conversation! I'd love to hear about what you're working on adn find a way to work togheter</p>
+
+                <Button title={'Chat'} uri={'#chat'} isButton={true} backgroundColor={'glow-20'} textColor={'white'}></Button>
+
+            </section>
         </>
     )
 }

@@ -22,7 +22,6 @@ const Project = ({ title, uri, text }: Props) => {
                     <div className='w-40'>
                         <Button title={'Button'} uri={'#qualcosa'} isButton={true} textColor={'white'} ></Button>
                     </div>
-
                 </div>
             </div>
 

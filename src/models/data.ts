@@ -1,16 +1,19 @@
+
+
 export interface Site {
     name: string;
-    tagline: string;
+    tagline: number;
     copyright: string;
     icon: string;
     baseUri: string;
 }
 
-export interface Navbar {
+export interface INavbar {
     name: string;
     uri: string;
     isButton: boolean;
 }
+
 
 export interface Hero {
     title: string;
@@ -25,7 +28,7 @@ export interface Social {
 
 export interface Data {
     site: Site;
-    navbar: Navbar[];
+    navitems: INavbar[];
     hero: Hero;
     social: Social[];
 }

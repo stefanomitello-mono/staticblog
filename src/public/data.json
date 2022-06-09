@@ -2,50 +2,50 @@
     "site": {
         "name": "Ryan Warner",
         "tagline": 1,
-        "copyright": "&copy; Copyright 2022",
+        "copyright": "Designed and developed by Ryan Warner. \nBuilt with Gatsby. Hosted on Firebase. Type set in Jost*.",
         "icon": "heart",
         "baseUri": "/"
     },
-    "navbar": [
+    "navitems": [
         {
             "name": "Articles",
             "uri": "/articles",
-            "isButton": 0
+            "isButton": false
         },
         {
             "name": "Snippets",
             "uri": "/snippets",
-            "isButton": 0
+            "isButton": false
         },
         {
             "name": "About",
             "uri": "/about",
-            "isButton": 0
+            "isButton": false
         },
         {
             "name": "Contact",
             "uri": "/contact",
-            "isButton": 1
+            "isButton": true
         }
     ],
     "hero": {
-        "title": "I'm Rayan, software engineer and interface designer.",
-        "subtitle": "Qualcosa"
+        "title": "I'm Ryan, software engineer and interface designer.",
+        "subtitle": "I specialize in rapidly prototyping software companies and web applications. I talk about my journey on Twitter, commit code to Github, and take shots on Dribbble."
     },
     "social": [
         {
-            "icon": "twitter",
+            "icon": "Twitter",
             "name": "twitter",
             "uri": "https://twitter.com"
         },
         {
-            "icon": "github",
+            "icon": "GitHub",
             "name": "github",
             "uri": "https://github.com"
         },
         {
-            "icon": "dribble",
-            "name": "dribble",
+            "icon": "Dribbble",
+            "name": "dribbble",
             "uri": "https://dribble.com"
         }
     ]

@@ -17,6 +17,7 @@ import { Data } from './models/data';
 import axios from 'axios';
 import About from './UI/pages/About';
 import Footer from './UI/organisms/Footer';
+import NotFound from './UI/pages/NotFound';
 
 
 
@@ -28,7 +29,6 @@ function App() {
     useEffect(() => {
         axios.get<Data>('/src/public/data.json')
             .then((response) => {
-                console.log("res:", response.data);
                 setData(response.data);
             });
     }, []);
@@ -48,6 +48,9 @@ function App() {
                     </Route>
                     <Route path="/about">
                         <About />
+                    </Route>
+                    <Route path="*">
+                        <NotFound />
                     </Route>
                 </Switch>
 

@@ -9,7 +9,7 @@ function About() {
     const [data, setData] = useState<any>();
 
     useEffect(() => {
-        axios.get<any>('/src/public/about.json')
+        axios.get<any>('/public/about.json')
             .then((response) => {
                 setData(response.data);
             });

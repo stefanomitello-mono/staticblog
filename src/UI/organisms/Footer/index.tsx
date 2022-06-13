@@ -17,15 +17,14 @@ const Footer = ({ copyright, socials = [], className }: Props) => {
 
     return (
         <>
-            <footer className='w-screen py-14 flex flex-row items-center justify-center px-2 max-w-screen-md mx-auto'>
+            <footer className=' py-14 flex flex-col md:flex-row items-center justify-between px-2 max-w-screen-md mx-auto'>
 
-                <Text text={copyright} className="text-xs text-left" />
-                <div className='w-1/3'></div>
+                <Text text={copyright} className="text-xs text-left w-auto my-2" />
 
-                <div className='flex flex-row '>
+                <div className='flex flex-row w-auto'>
                     {socials.map(item => (
                         <a key={item.name} href={item.uri} title={item.name} target="_blank" className='mx-2'>
-                            <Icon symbol={item.icon} className="w-14 hover:scale-150" />
+                            <Icon symbol={item.icon} className="w-8 hover:scale-150" />
                         </a>
                     ))}
                 </div>

@@ -26,9 +26,18 @@ export interface Social {
     uri: string;
 }
 
+export interface IProject {
+    title: string;
+    body: string;
+    button: string;
+    sideColor: string;
+}
+
+
 export interface Data {
     site: Site;
     navitems: INavbar[];
     hero: Hero;
     social: Social[];
+    project: IProject[];
 }

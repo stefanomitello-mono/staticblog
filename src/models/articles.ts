@@ -1,4 +1,4 @@
-export interface Article {
+export interface Post {
     title: string;
     uri: string;
     publishedOn: string;
@@ -6,6 +6,6 @@ export interface Article {
     body: string;
 }
 
-export interface Articles {
-    articles: Article[];
+export interface Feed {
+    articles: Post[];
 }

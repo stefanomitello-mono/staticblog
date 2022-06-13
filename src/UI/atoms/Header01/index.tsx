@@ -9,7 +9,7 @@ type Props = {
 const Header01 = ({ text, textColor = 'text-10', className = "" }: Props) => {
     return (
         <>
-            <h1 className={`font-sans text-h1 md:text-md-h1 font-bold text-${textColor} ${className && (className)} px-5 py-1`}>
+            <h1 className={`font-sans text-h1 md:text-md-h1 font-bold text-${textColor} ${className && (className)} py-1`}>
                 {text}
             </h1>
         </>

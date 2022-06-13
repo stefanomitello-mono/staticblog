@@ -9,7 +9,7 @@ type Props = {
 const Text = ({ text, textColor = 'text-10', className = "" }: Props) => {
     return (
         <>
-            <p className={`font-sans text-base md:text-body text-${textColor} ${className && (className)} px-5 py-1`}>
+            <p className={`font-sans text-base md:text-body text-${textColor} ${className && (className)} py-1`}>
                 {text}
             </p>
         </>

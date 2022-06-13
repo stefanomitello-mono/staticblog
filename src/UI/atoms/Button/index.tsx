@@ -12,7 +12,6 @@ type Props = {
 
 const Button = ({ title, uri, icon, backgroundColor = 'transparent', textColor = 'white', className }: Props) => {
 
-    console.log(title, uri, icon, backgroundColor, textColor)
     return (
         <>
             <Link to={uri}>

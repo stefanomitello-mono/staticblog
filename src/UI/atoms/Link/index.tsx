@@ -12,10 +12,9 @@ type Props = {
 
 const Hypertext = ({ title, uri, icon, textColor = 'white', className }: Props) => {
 
-    console.log(title, uri, icon, textColor)
     return (
         <>
-            <Link to={uri} className={`text-${textColor} hover:text-glow-10 font-sans text-sm px-5 py-2.5 text-center inline-flex mr-2 ${className} `}>
+            <Link to={uri} className={`text-${textColor} hover:text-glow-10 font-sans text-sm text-center inline-flex mr-2 ${className} `}>
                 {title}
 
                 {icon && (

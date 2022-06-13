@@ -14,7 +14,7 @@ function Articles() {
 
     useEffect(() => {
 
-        axios.get<Feed>('/public/articles.json')
+        axios.get<Feed>('/articles.json')
             .then((response) => {
                 setPost(response.data);
             });

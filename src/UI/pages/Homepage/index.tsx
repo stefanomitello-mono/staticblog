@@ -14,12 +14,12 @@ function Home() {
 
 
     useEffect(() => {
-        axios.get<Data>('/public/data.json')
+        axios.get<Data>('/data.json')
             .then((response) => {
                 setData(response.data);
             });
 
-        axios.get<Feed>('/public/articles.json')
+        axios.get<Feed>('/articles.json')
             .then((response) => {
                 setPost(response.data);
             });

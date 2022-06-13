@@ -9,7 +9,7 @@ const Icon = ({ symbol, className = "" }: Props) => {
     return (
         <img
             className={`${className && (className)}`}
-            src={`./src/assets/icons/${symbol}.png`} />
+            src={`/assets/icons/${symbol}.png`} />
     );
 }
 

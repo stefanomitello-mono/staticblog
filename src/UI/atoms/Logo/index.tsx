@@ -12,7 +12,7 @@ const Logo = ({ logoImg, title, uri, className = "" }: Props) => {
     return (
         <>
             <Link to={uri} className={`${className && (className)}`}>
-                {logoImg && (<img src={`./src/assets/${logoImg}.png`} className="mr-4 h-6 w-auto" />)}
+                {logoImg && (<img src={`/assets/${logoImg}.png`} className="mr-4 h-6 w-auto" />)}
                 {title}
             </Link>
         </>

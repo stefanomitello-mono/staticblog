@@ -48,5 +48,25 @@
             "name": "dribbble",
             "uri": "https://dribble.com"
         }
+    ],
+    "project": [
+        {
+            "title": "progetto 01",
+            "body": "An online coworking community for indie hackers, entreprenuers, and founders. Chat live with app developers, designers, and mentors. Access video courses and tutorials.",
+            "button": "/project01",
+            "sideColor": "red"
+        },
+        {
+            "title": "progetto 02",
+            "body": "An online coworking community for indie hackers, entreprenuers, and founders. Chat live with app developers, designers, and mentors. Access video courses and tutorials.",
+            "button": "/project02",
+            "sideColor": "green"
+        },
+        {
+            "title": "progetto 03",
+            "body": "An online coworking community for indie hackers, entreprenuers, and founders. Chat live with app developers, designers, and mentors. Access video courses and tutorials.",
+            "button": "/project03",
+            "sideColor": "blue"
+        }
     ]
 }

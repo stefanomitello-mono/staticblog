@@ -27,7 +27,7 @@ function App() {
     const [data, setData] = useState<Data>();
 
     useEffect(() => {
-        axios.get<Data>('/src/public/data.json')
+        axios.get<Data>('/data.json')
             .then((response) => {
                 setData(response.data);
             });

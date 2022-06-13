@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react'
 import { Feed } from '../../../models/articles';
 import { Data } from '../../../models/data';
+import CallToAction from '../../molecules/CallToAction';
 import Hero from '../../organisms/Hero';
 import LatestArticles from '../../organisms/LatestArticles';
 import Projects from '../../organisms/Projects';
@@ -33,6 +34,8 @@ function Home() {
             <LatestArticles title={'All articles'} allArticlesUri={'/articles'} feed={post!} />
 
             <Projects project={data?.project!} />
+
+            <CallToAction title={''} body={''} urlBtn={''} />
         </>
     )
 }

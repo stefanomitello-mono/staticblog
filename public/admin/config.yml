@@ -1,22 +1,113 @@
 backend:
   name: git-gateway
-  branch: refactor # Branch to update (optional; defaults to master)
-media_folder: public/assets/
-public_folder: img
+  branch: refactor
+media_folder: public/assets/icons
+public_folder: public/assets/
 collections:
-  - name: "pages"
-    label: "Pages"
+  
+  - name: posts
+    label: Posts
+    folder: public/post
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    fields:
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: post-page
+        required: true
+        hint: ""
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: markdown
+      - label: Publish Date
+        name: publishedOn
+        widget: datetime
+        required: true
+        hint: ""
+        default: ""
+        format: ""
+        dateFormat: DDMMYYYY
+        timeFormat: ""
+      - label: Category
+        name: category
+        required: false
+        widget: image
+        hint: ""
+        default: ""
+        allow_multiple: false
+    identifier_field: ""
+
+  - name: pages
+    label: Pages
+    extension: json
+    delete: false
     files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+      - file: public/pages/homepage.md
+        label: Home
+        name: homepage
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: home-page
+            required: true
+            hint: ""
+      
+      - file: public/pages/about.md
+        label: About Page
+        name: about
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: index-page
+  
+  - name: articles
+    label: Articles
+    delete: false
+    create: true
+    extension: json
+    files:
+      - file: public/pages/posts.md
+        label: Articles
+        name: posts
+        fields:
+          - label: Post
+            name: post
+            required: true
+            widget: object
+            hint: ""
+            fields:
+              - label: Title
+                name: title
+                required: true
+                widget: string
+                hint: ""
+                default: ""
+              - label: Body
+                name: body
+                required: true
+                widget: text
+                hint: ""
+                default: ""
+              - label: Category
+                name: category
+                required: false
+                widget: image
+                hint: ""
+                default: ""
+                allow_multiple: false
+              - label: Published on
+                name: publishedOn
+                required: true
+                widget: datetime
+                hint: ""
+                default: ""
+                format: ""
+                dateFormat: DD-MM-YYYY
+                timeFormat: ""

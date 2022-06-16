@@ -14,10 +14,10 @@ import Articles from './UI/pages/Articles';
 import Home from './UI/pages/Homepage';
 import Header from './UI/organisms/Header';
 import { Data } from './models/data';
-import axios from 'axios';
 import About from './UI/pages/About';
 import Footer from './UI/organisms/Footer';
 import NotFound from './UI/pages/NotFound';
+import axios from 'axios';
 
 
 

@@ -26,4 +26,4 @@ const Hero = ({ title, subtitle, className }: Props) => {
 
 }
 
-export default Hero
+export { Hero }

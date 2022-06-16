@@ -73,7 +73,7 @@ collections:
     create: true
     extension: json
     files:
-      - file: public/pages/posts.md
+      - file: public/pages/posts.json
         label: Articles
         name: posts
         fields:

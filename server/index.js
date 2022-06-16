@@ -5,6 +5,7 @@ const { createPageRenderer } = require('vite-plugin-ssr')
 const isProduction = process.env.NODE_ENV === 'production'
 const root = `${__dirname}/..`
 
+console.log("root", root)
 startServer()
 
 async function startServer() {

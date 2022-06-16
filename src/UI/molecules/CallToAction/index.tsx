@@ -1,4 +1,3 @@
-import Markdown from 'markdown-to-jsx';
 import { useState } from 'react'
 import Button from '../../atoms/Button';
 import Header01 from '../../atoms/Header01';
@@ -38,4 +37,4 @@ const CallToAction = ({ }: Props) => {
 
 }
 
-export default CallToAction
+export { CallToAction }

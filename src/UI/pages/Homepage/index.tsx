@@ -2,8 +2,8 @@ import axios from 'axios';
 import { useEffect, useState } from 'react'
 import { Feed } from '../../../models/articles';
 import { Data } from '../../../models/data';
-import CallToAction from '../../molecules/CallToAction';
-import Hero from '../../organisms/Hero';
+import { CallToAction } from '../../molecules/CallToAction';
+import { Hero } from '../../organisms/Hero';
 import LatestArticles from '../../organisms/LatestArticles';
 import Projects from '../../organisms/Projects';
 

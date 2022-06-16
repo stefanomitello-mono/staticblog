@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react'
 
 import { Social } from '../../../models/data';
 import Icon from '../../atoms/Icons';
-import Hypertext from '../../atoms/Link';
 import Text from '../../atoms/Text';
 
 type Props = {

@@ -6,6 +6,9 @@ import type { ServerRenderer } from 'vite-plugin-ssr-ssg'
 
 import { HeadProvider } from 'react-head'
 
+let jsonData = require('../public/content/post/title01.json');
+console.log("jsonData", jsonData);
+
 const render: ServerRenderer = async (url, manifest) => {
     const headTags = [] as any
     const context = {}

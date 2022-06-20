@@ -21,6 +21,12 @@ const pages = import.meta.globEager('./pages/**/*.tsx')
 const routes = getRoutes<'react'>(pages)
 
 
+
+const dir = '../../public/content/post/';
+
+
+
+
 const App: FC = () => {
 
 
@@ -62,47 +68,3 @@ const App: FC = () => {
 }
 
 export default App
-
-
-
-/* function App() {
-
-
-    const [data, setData] = useState<Data>();
-
-    useEffect(() => {
-        axios.get<Data>('/data.json')
-            .then((response: { data: any; }) => {
-                setData(response.data);
-            });
-    }, []);
-
-    return (
-        <>
-            <Router>
-                <Header titleSite={data?.site.name!} urlSite={data?.site.baseUri!} iconLogo={data?.site.icon} navItem={data?.navitems} />
-
-                <Switch>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route path="/articles">
-                        <Articles />
-                    </Route>
-                    <Route path="/about">
-                        <About />
-                    </Route>
-                    <Route path="*">
-                        <NotFound />
-                    </Route>
-                </Switch>
-
-                <Footer copyright={data?.site.copyright!} socials={data?.social!} />
-
-            </Router>
-
-        </>
-    )
-}
-
-export default App */

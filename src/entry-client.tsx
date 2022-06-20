@@ -7,12 +7,10 @@ import './global.scss'
 import App from './App'
 
 hydrate(
-    <StrictMode>
-        <HeadProvider>
-            <BrowserRouter>
-                <App />
-            </BrowserRouter>
-        </HeadProvider>
-    </StrictMode>,
+    <HeadProvider>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </HeadProvider>,
     document.getElementById('root')
 )

@@ -1,13 +1,13 @@
 backend:
   name: git-gateway
-  branch: refactor
+  branch: static
 media_folder: public/assets/icons
 public_folder: public/assets/
 collections:
   
   - name: posts
     label: Posts
-    folder: public/post
+    folder: public/content/post
     create: true
     slug: "{{slug}}"
     extension: json
@@ -47,7 +47,7 @@ collections:
     extension: json
     delete: false
     files:
-      - file: public/pages/homepage.md
+      - file: public/content/homepage.json
         label: Home
         name: homepage
         fields:
@@ -58,7 +58,7 @@ collections:
             required: true
             hint: ""
       
-      - file: public/pages/about.md
+      - file: public/content/about.json
         label: About Page
         name: about
         fields:
@@ -73,7 +73,7 @@ collections:
     create: true
     extension: json
     files:
-      - file: public/pages/posts.md
+      - file: public/content/posts.json
         label: Articles
         name: posts
         fields:
